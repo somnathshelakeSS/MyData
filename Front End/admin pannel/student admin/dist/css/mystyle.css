@@ -1,0 +1,21 @@
+    li a span p:hover {
+        color: red !important;
+    }
+    
+    li a span:hover {
+        color: red !important;
+    }
+    
+    h1>small {
+        font-size: 15px;
+        display: inline-block;
+        padding-left: 4px;
+        font-weight: 300;
+        line-height: 1;
+        color: #777;
+    }
+    
+    .content-header>h1 {
+        margin: 0;
+        font-size: 24px;
+    }

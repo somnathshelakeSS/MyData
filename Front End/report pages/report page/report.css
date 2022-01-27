@@ -1,0 +1,126 @@
+/* nav tabs style after click */
+.nav-tabs .nav-link.active{
+	background-color:#f573f5;
+	color: white;
+}
+
+
+ ::selection{
+background:#d7f702;
+	color: black;
+
+} 
+
+img {
+    vertical-align: middle;
+    border-style: dashed;
+}
+.main-color {
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px !important;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+.equal-btn a{
+	width:90%%;
+
+	padding: 5px 0px;
+	background-color: #96f095;
+	color: red; 
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #0df70a;
+	text-transform: capitalize;
+	border-radius: 10px;
+	text-decoration: none;
+
+}
+
+.equal-btn a:hover{
+	color: black;
+	background-color: yellow;border: none;font-weight: bold;
+}
+
+/*Button color change after click on it*/
+.equal-btn a:focus{
+	color: white;
+	background-color: #948aed ;border: none;font-weight: bold;
+}
+
+/*on btn click time*/
+.equal-btn a:active{
+	background-color: red;
+}
+	*/.nav .nav-item a:hover{
+		background-color:#003236;
+		color: white;
+	}	
+
+	.nav .nav-item a{
+		color: black;
+		background-color: #9fb8e3;
+		margin: 5px 10px;
+	}
+
+	.faq {}
+
+.faq .card{
+	margin: 10px 5px;
+	
+}
+
+.faq .card a{
+text-decoration: none;
+color: #09287d;
+font-size: 18px;
+font-weight: bold;
+font-family: cursive;
+   
+}
+
+.faq .card p{
+	color:#09287d;
+	font-size: 18px;font-weight: 500;font-family: cursive;  
+
+}
+.card  a:hover{
+	
+	color: red;
+	font-weight: bold;
+}
+
+.animat button{
+    
+    animation-name: my-animation; 
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes my-animation{
+
+0%{
+    opacity: 1.0;
+}
+
+25%{
+opacity: 0.6;
+}
+
+50%{
+opacity: 0.3;
+}
+
+75%{
+opacity: 0.6;
+}
+
+100%{
+    opacity: 1.0;
+}
+
+}

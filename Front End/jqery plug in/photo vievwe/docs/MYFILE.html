@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>PhotoViewer PLUGIN</title>
+
+  <link rel="stylesheet" href="css/docs.css">
+  <link rel="stylesheet" href="css/photoviewer.css">
+  <link rel="stylesheet" href="css/snack-helper.css">
+  <link rel="stylesheet" href="css/snack.css">
+  </head>
+  
+  <body>
+   
+    <p>Look at the following example:</p>
+    <div class="image-set">
+
+      <a data-gallery="manual" data-title="Slipping Away by Jerry Fryer" data-group="a"
+         href="../images/1.jfif">
+        <img src="../images/1.jfif" alt="one" style="width: 80px;">
+      </a>
+
+      <a data-gallery="manual" data-title="Mi Fuego by albert dros" data-group="a"
+         href="../images/2.jpg">
+        <img src="../images/2.jpg " alt="two">
+      </a>
+
+      <a data-gallery="manual" data-title="Winter Fairytale by Achim Thomae" data-group="a"
+         href="../images/3.jpg">
+        <img src="../images/3.jpg" alt="333" style="width: 80px;">
+      </a>
+
+      <a data-gallery="manual"
+         href="../images/4.jpg" data-group="b">
+        <img src="../images/4.jpg" alt="444" style="width: 80px;">
+      </a>
+
+      <a data-gallery="manual"
+         href="../images/5.jpg" data-group="b">
+        <img src="../images/5.jpg" alt="" style="width: 80px;">
+      </a>
+     
+ 
+    </div>
+
+
+<!-- bootstrap js -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/prettify/r298/prettify.min.js"></script>
+
+<!-- our project folder ja -->
+<script src="js/photoviewer.js"></script>
+</script>
+
+<script>
+  window.prettyPrint && prettyPrint();
+
+  // initialize with an array of objects
+  $('button').click(function () {
+
+    new PhotoViewer([{
+      src: 'https://c1.staticflickr.com/3/2136/32571842110_faadf0b1a7_k.jpg',
+      title: 'Glendalough Upper Lake by <a href="https://www.flickr.com/photos/desomnis/">Angelika Hörschläger</a>'
+    }, {
+      src: 'https://c1.staticflickr.com/5/4364/35774111373_187963664b_h.jpg',
+      title: 'A foggy summer day by <a href="https://www.flickr.com/photos/desomnis/">Angelika Hörschläger</a>'
+    }, {
+      src: 'https://c1.staticflickr.com/8/7737/28617607314_170a8e6752_k.jpg',
+      title: 'My Silver Lining (explore) by <a href="https://www.flickr.com/photos/desomnis/">Angelika Hörschläger</a>'
+    }]);
+
+  });
+
+  // initialize manually with a list of links
+  $('[data-gallery=manual]').click(function (e) {
+
+    e.preventDefault();
+
+    var items = [],
+      options = {
+        index: $(this).index(),
+      };
+
+    $('[data-gallery=manual]').each(function () {
+      items.push({
+        src: $(this).attr('href'),
+        title: $(this).attr('data-title')
+      });
+    });
+
+    new PhotoViewer(items, options);
+
+  });
+
+</script>
+
+  </body>
+</html>

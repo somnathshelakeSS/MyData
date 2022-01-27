@@ -1,0 +1,30 @@
+ 
+.cat-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    width: 750px !important;
+    height: 37  0px;
+    z-index: 1000;
+    float: left;
+    min-width: 723px !important;
+    padding: 5px 60px;
+    margin: 5px -251px 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: -10px;
+}
+@media screen and (max-width: 1380px) and (min-width: 1200px)
+.cat-dropdown-menu {
+    width: 1130px;
+    margin: 5px -139px 0;
+    height: 230px;
+    margin-top: 8px;
+}
+
+
+.

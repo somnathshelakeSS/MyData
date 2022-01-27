@@ -1,0 +1,179 @@
+
+Market Research Front End
+
+
+
+DBIZ theme madil  index-2.html ..home-2.html use 
+
+ https://globalresearchstore.com/  call to action refernce ( We are one of the best market reserach/business consulting company ever!!) this section
+
+ braddcrumb needed all page .. category page relevent ,img   
+
+1)Home Page -   
+ Navbar content ie. (home , company-(about us ,research method, career))  ,categories,
+                               media {blog, news,PR infographic}, contact us. ( use sticky header)
+
+
+  Category Menu , -( qyresearch - full width ... catname + icons)ref- advancemarketanalytics / insight parteners , market research inc..
+     <a href="#" class="btn default-btn d-block mx-auto mt-3"> <i class="fas fa-shopping-cart mr-2"></i> Buy Now</a>
+
+Slider with search bar ,{ Manualy slide ie. after click img can move -1 button and search bar ..
+
+  Latest reports ,----(reference  try to scroll plug in use .. 4-5 reports )REF- reportconsultant.com / reportnmarket sarkhe slide hotat
+                                                                                 reportsandmarket.com - latest report (try vertical)
+  About-us with image,
+
+  Clients slider, ={ 3slides owl carousel}
+ 
+  Testimonials , =={photo ,name, designation, destn in cards..} 
+
+Services
+
+ latest Blogs/ Press release ,= ref- {supremmarketresearch   3imges in card}
+
+
+ call to action contact page , ref( https://www.statisticalmarketinsights.com/  madil suport ie 1 btnn with text)
+    https://globalresearchstore.com/  call to action refernce ( We are one of the best market reserach/business consulting company ever!!) this section
+      
+
+  Logo at left side
+
+Social Icons (header or footer)
+
+
+
+
+2 ) Forms ( with validation ) == after click on input field shadow show nedded. 
+ 
+      Request / Download sample  -- pages/shop/checkout..(buy now  ,  single-product.html)
+      Buy now
+       Contact us  make 3only
+ 
+    ( Ask for discount,   Enquiry before buying )
+  
+ 
+  4 )   Media/Resources- Publisher website
+
+    Blogs ,   News ,
+    Press Release  ( choose theme accordingly for blog and pr and news)
+
+      Infographics -- https://www.marketsandmarkets.com/infographics.asp   ..form and card thevayche--
+        card open kelay make page ref by yogini Smi info design. 
+   
+
+
+
+3 ) Contact us
+
+     Address with telephone no. & Email id
+     Form with five field
+     Social icon ,
+     Google Map
+
+
+
+
+5) Industries wise report
+
+  Categories , Category Description ,
+  Image banner , Buttons- download sample & request sample , Sidebar list of category ,
+    Search  bar,Pagination
+
+https://globalresearchstore.com/  
+
+Ref - https://www.marketresearchfuture.com/categories/chemicals-market-report
+     https://www.psmarketresearch.com/industry-report/life-sciencess
+https://www.fortunebusinessinsights.com/healthcare-industry
+
+https://www.coherentmarketinsights.com/  testimonial section same as
+https://www.wiseguyreports.com/categories/agriculture-market-research-report
+
+https://www.alliedmarketresearch.com/reports-store/consumer-goods
+https://www.globalresearchstore.com/categories/it-telecommunication
+
+
+ 6) Report Page
+
+       4 buttons  , FAQ , Breadcrumb ,Navtabs- (summary, TOC, Methodology ),Related Reports ,
+    Buy option with 3 radio buttons ,Covid banner ,Social Share --
+https://www.grandviewresearch.com/industry-analysis/volumetric-display-market  (Try all sections)
+
+7) Technical SEO
+
+(HTML Sitemap,  ALT & Title tag to image Title tag to hyper link) front end
+
+   Dynamic meta tags , Dynamic canonical URL , XML Sitemap , HTML Sitemap , ALT & Title tag to image and a tag , 
+  Robot.txt file , Title tag to hyper link , Schema
+
+
+8 ) Policies links
+  privacy policy , refund policy ,term & condition , Payment option , disclaimer ,FAQ	, how to order
+
+
+
+9 ) Footer
+ Address 
+   Static pages links
+   payment images ()
+chatbot - live chat or tawk.to use 1 from this 2
+   social icons
+   twitter card,
+       copyright footer
+email news letter
+    Website Security (trusted SSL, Malware free etc.) like as secure  payment logo
+         Email/ Phone number (long footer)
+
+
+
+https://www.coherentmarketinsights.com/ ********* recomnded
+https://www.alliedmarketresearch.com/reports-store/consumer-goods 
+https://www.transparencymarketresearch.com/energy-market-reports-3.html
+
+
+10 About us --suprememarket
+11  Careers  --suprememarket
+12 On page SEO
+13 Why Choose Us - wscubetech
+14 Research methodology -- rnr
+  
+
+
+
+
+
+
+News Later --- demo 7 insert from this page
+
+Report
+D:\somnath\aa\My Assignment\report pages\report sample\ report3.html--  
+- D:\somnath\aa\My Assignment\report pages\task2./ report-2.html / task2.html
+
+
+ category form 
+
+Twitter platform ... refernce csp 
+
+
+
+
+Footer pages remains
+
+1 disclaimer.html  done
+2. privecyPolicy.html  done
+3. Services.html done
+7.termsConditions
+ 4.faq.html
+
+
+s5.sitemap.html
+6.xmlSitemap.html
+12 On page SEO
+13 Why Choose Us - wscubetech
+
+infographic.html
+
+
+reporet blogs BUY Now add 
+
+
+

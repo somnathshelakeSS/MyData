@@ -1,0 +1,168 @@
+
+
+ p::selection{
+background: #f59505;
+	color: black;
+
+
+} 
+
+.nav li a{
+	margin-left:10px ;
+	width: 190px;
+	max-width: 200px;
+	min-width: 100px;
+	text-align: center;
+}
+
+.nav li a:hover{
+	color: white;
+	background-color: #38d638;
+	
+
+}
+
+.nav li a:active{
+	color: blue;
+	background-color: #edf505;
+	font-weight: bold;
+	    padding-bottom: 20px;
+
+}
+
+
+
+.list ul{
+	 columns:4; /* row 4 column made divide hoto .  like as col-span-4 */
+	list-style: none;
+	margin: 4px;padding-top: 5px;
+	color: #393885;
+}
+
+.list li{
+widows: 100%;
+text-align: left;
+border-right:2px solid black ;
+}
+
+.list li :hover{
+
+color: red;
+background: yellow;
+font-weight: bold;
+cursor:progress;
+}
+
+.details{
+
+margin: 30px auto;
+
+}
+
+.details div{
+	  border: 1px solid red;font-weight: bold;
+	
+}
+.details p{
+
+    text-align: center;
+   margin-bottom: 0px !important;
+}
+
+
+h2{
+	 color: #010212;
+   
+    margin-top: 0;
+    font-family: itcfranklingothicstd-demi;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/*
+.buttons{
+margin-left: 20px;
+margin-bottom: 20px;
+
+}
+
+.buttons .anchor-button{
+
+	    display: inline-block;
+       
+}
+.buttons .anchor-button a{
+	text-transform: uppercase;
+}
+
+.buttons .anchor-button a: hover{
+
+	text-transform: uppercase;
+	
+}
+*/
+.card-button{
+
+	margin: 10px 
+	
+}
+/*  Animation Button */
+
+.animat a{
+    
+    animation-name: my-animation; 
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes my-animation{
+
+0%{
+    opacity: 1.0;
+}
+
+25%{
+opacity: 0.6;
+}
+
+50%{
+opacity: 0.3;
+}
+
+75%{
+opacity: 0.6;
+}
+
+100%{
+    opacity: 1.0;
+}
+
+}
+
+
+.card a:hover{
+
+background-color: #38d638;
+color: black;
+font-weight: bold;
+border: 0px ;
+}
+
+.card a:active{
+
+background-color: #edf505 !important;
+color: black !important;
+    padding-bottom: 20px;
+}
+
+.equal-btn{
+	width: 80%;max-width: 150px;
+}
+
+.tab-content{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #333;
+}

@@ -1,0 +1,33 @@
+
+
+
+
+
+.category h3 {
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400px;
+   margin: 20px 0;
+   text-align: center;
+
+}
+
+img {
+    vertical-align: middle;margin: 10px 5px;
+    display: block;
+    margin: 0 auto;
+
+   
+}
+
+img:hover{
+transform: scale(1.2);
+}
+
+.category a{
+
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #232529;
+}
+

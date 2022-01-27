@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+
+<title> accordion example </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" >   
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!-- Glyphicon icons -->  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- font awsome -->      
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+   
+<body>
+
+<section>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" style="background-color: #0eebdc; " data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"style=" font-size: 20px;"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+         industries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> chemical material</a>
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> energy & power</a>
+        </div>
+      </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+          services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span>  QYR in consulting</a>
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> customized research</a>
+        </div>
+      </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+         media
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> press releases</a>
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> blogs</a>
+           <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> news</a>
+        </div>
+      </li>
+
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+        discover QYR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> introduction</a>
+          <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> our team</a>
+           <a class="dropdown-item" href="#"> <span class="glyphicon glyphicon-chevron-right"></span> word wide location</a>
+        </div>
+      </li>   
+
+      <li class="nav-item">
+        <a class="nav-link ">special corner</a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>  
+
+</section>
+
+
+
+<section> 
+
+<div class="container">
+  <div class="row">
+    
+    <div class="col-md-3">
+<div class="accordion" id="accordionExample" >
+
+<div> 
+  <h4 class="heading-top">Top Industries
+     <span class="glyphicon glyphicon-plus-sign fav plus_sign_fav" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="top-btn" style="float:right;color:#403ae8;"></span> 
+  </h4>
+</div> <!-- end clickable area -->
+
+
+
+<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+<div class="accordion" id="accordionExample1">
+      <div class="card-header" id="subheadingOne">
+         <h4 class="heading-top">Chemical & Materials
+          <span class="glyphicon glyphicon-plus-sign fav plus_sign_fav " data-toggle="collapse" data-target="#chemicalcollapseOne" aria-expanded="true" aria-controls="chemicalcollapseOne" id="top-btn" style="float:right;color:#403ae8;"></span>
+        </h4>
+      </div> <!-- end of first item -->
+
+      <div id="chemicalcollapseOne" class="collapse " aria-labelledby="subheadingOne" data-parent="#accordionExample1">
+          <div id="top-industry">
+            <ul id=my-ul>
+                      <li > 
+                       <a href="#" >
+                       <span> Packaging</span> 
+                       </a>
+                      </li>
+
+                      <li > 
+                       <a href="#" >
+                       <span> Packaging Materials</span> 
+                       </a>
+                      </li>
+
+                      <li > 
+                       <a href="#" >
+                       <span> Construction Material</span> 
+                       </a>
+                      </li>                                            
+            </ul>
+            
+          </div>
+      </div> <!-- forst items openamble area end-->
+</div> <!-- end of list ONE ITEM-->
+
+
+<div class="accordion" id="accordionExample2">
+      <div class="card-header" id="subheadingTwo">
+         <h4 class="heading-top">Chemical & Materials
+          <span class="glyphicon glyphicon-plus-sign fav plus_sign_fav " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo" id="top-btn" style="float:right;color:#403ae8;"></span>
+        </h4>
+      </div> <!-- end of first item -->
+
+      <div id="collapseTwo" class="collapse " aria-labelledby="subheadingTwo" data-parent="#accordionExample2">
+          <div id="top-industry">
+            <ul id=my-ul>
+                      <li > 
+                       <a href="#" >
+                       <span> Industrial Robots</span> 
+                       </a>
+                      </li>                               
+            </ul>
+            
+          </div>
+      </div> <!-- forst items openamble area end-->
+</div> <!-- end of list two ITEM-->
+
+
+
+
+
+</div> <!-- end openable area  stared-->
+
+
+</div> <!--Acordion example end -->      
+    </div>
+  
+    <div class="col-md-9">
+      <p>ajhsabdsbjh
+      dhjdhds
+    </p>
+    <he>sksnj</h3>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</section>
+
+</body>
+</html>

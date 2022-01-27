@@ -1,0 +1,71 @@
+.industry li a{
+text-decoration: none;
+text-transform: capitalize;	
+font-weight: bold;
+float: left;
+}
+
+.heading .bl a{
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+
+.bl p{
+	font-weight:60px;
+	line-height: 25px;
+}
+.heading .bl .post-date{
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #671cbd;
+    margin: 10px 5px;
+}
+.heading .bl .post-date span{
+	padding-left:10px ;
+	color: red;
+	font-weight: bold;
+}
+
+.icons{
+padding: 10px;
+text-align: center;
+margin: 10px 0;
+}
+.icons i{
+	color: #0712e8;
+	margin: 0px 10px;
+}
+
+.post li{
+list-style: none;
+}
+
+.post a{
+	text-transform: capitalize;
+	text-decoration: none;
+    color: black;  
+
+}
+
+.card .card-body i{
+	position: relative;
+	top: 50%;
+	color: #5858f5;
+	margin-bottom: 10PX;
+}
+.card .card-body h5{
+
+	text-transform: capitalize;
+	margin: 15px 0;
+}
+
+p::selection {
+  color: blue;
+  background:yellow;
+}
+
+a:hover{
+	
+	text-decoration: underline;
+}

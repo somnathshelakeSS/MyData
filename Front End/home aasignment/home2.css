@@ -1,0 +1,66 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.headercolor{
+
+background-color:#e0e38f;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+font-weight: bold;
+}
+
+ a{
+   
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+ a:hover{
+
+  text-decoration: none;
+  color: red;
+ text-transform: uppercase;
+ background: #edf514;
+ border-radius: 10px;
+ padding: 5px;
+}
+
+div nav ul li {
+  padding-left: 30px;
+}
+
+.card button{
+  color: red;
+  background-color: yellow;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+
+.hom-img{
+
+  background-image: url("nature.jpg");
+  background-position: center;
+  position: relative;
+ height: 500px;
+ 
+
+}
+
+.hom-img-text{
+
+position: absolute;
+text-align: center;
+color: white;
+top: 50%;
+left: 50%;
+ transform: translate(-50%, -50%);
+
+}
+
+

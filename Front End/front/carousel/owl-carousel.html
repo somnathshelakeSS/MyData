@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Owl Carousel</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+	
+
+
+</head>
+
+
+<body>
+
+
+<div class="owl-carousel owl-theme">
+    <div class="item">
+      <img src="images/work-1.jpg" alt="images first">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-2.jpg" alt="images 2">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-3.jpg" alt="images3">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-4.jpg" alt="images 4">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-5.jpg" alt="images 5">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-6.jpg" alt="images 6">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-7.jpg" alt="images 7">
+    </div>
+   
+   <div class="item">
+      <img src="images/work-8.jpg" alt="images 8">
+    </div>
+   
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+<script type="text/javascript">
+	
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+   // nav:false,
+    //dots:false,   image chya khali je circle ahet te remove hoil.  dots:false  use kele ki circle show hoil 
+    responsive:{
+        0:{
+            items:1 // screen size 0 to 599 px asel tevha 1 item show hoil
+        },
+        600:{
+            items:3 // screen size 600 px pasun pude 999 px paryant 3 items show hotil
+        },
+        1000:{
+            items:5  // screen size 1000 px asel tevha 1000 ani tya peksha jast size row made 5 items show hotil 
+        },
+
+        1400:{
+        	items:2 // screen size 1400 chya pude asel tevha 2 items show hotil.
+        }
+    }
+})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,523 @@
+<!-- meta tags and other links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KitmeK - Home</title>
+  <!-- site favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="16x16">
+  <!-- bootstrap 4  -->
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+  <!-- fontawesome 5  -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- line-awesome webfont -->
+  <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+  <!-- custom select css -->
+  <link rel="stylesheet" href="assets/css/vendor/nice-select.css">
+  <!-- animate css  -->
+  <link rel="stylesheet" href="assets/css/vendor/animate.min.css">
+  <!-- lightcase css -->
+  <link rel="stylesheet" href="assets/css/vendor/lightcase.css">
+  <!-- slick slider css -->
+  <link rel="stylesheet" href="assets/css/vendor/slick.css">
+  <!-- style main css -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  
+  <style>
+     
+      #fixed-height {
+        height: 200px;
+        background-color: #00000;
+      }
+     
+    </style>
+	  
+</head>
+  <body>
+
+    <!-- prealoader start  -->
+    <div class="preloader">
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <!-- prealoader end -->
+
+  <!-- scroll-to-top start -->
+  <div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="las la-arrow-up"></i>
+    </span>
+  </div>
+  <!-- scroll-to-top end -->
+  <!-- page-wrapper start -->
+  <div class="page-wrapper">
+      <!-- login modal -->
+  <div class="modal fade" id="loginModal" tabindex="1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-transparent">
+        <div class="modal-body">
+          <div class="account-area">
+            <h3 class="title mb-4">Welcome to KITMEK</h3>
+            <form class="account-form">
+              <div class="form-group">
+                <label>Your Email </label>
+                <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Password </label>
+                <input type="password" name="login_email" placeholder="Enter Your Password" class="form-control">
+              </div>
+              <div class="form-group">
+                <p>Forgot your password? <a href="#0">recover password</a></p>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="cmn-btn">Sign IN</button>
+              </div>
+            </form>
+            <div class="or-devider mt-5"><span>OR</span></div>
+            <div class="text-center mt-4">
+              <p>Sign up with your work email</p>
+              <a href="#0" class="google-btn mt-4 mb-3"><img src="assets/images/icon/google.png" alt="image">Sign Up with Google</a>
+              <p>Don't have an account? <a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Sign up here</a></p>
+            </div>
+          </div><!-- account-area end -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up modal -->
+  <div class="modal fade" id="signupModal" tabindex="1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content bg-transparent">
+        <div class="modal-body">
+          <div class="account-area">
+            <h3 class="title mb-4">Let's get started</h3>
+            <div class="text-center mt-4">
+              <a href="#0" class="google-btn mt-4 mb-3"><img src="assets/images/icon/google.png" alt="image">Sign Up with Google</a>
+            </div>
+            <div class="or-devider mt-4"><span>OR</span></div>
+            <p class="text-center mt-2 mb-4">Sign up with your work email</p>
+            <form class="account-form">
+              <div class="form-group">
+                <label>Your Email </label>
+                <input type="email" name="login_email" placeholder="Enter Your Email" class="form-control">
+              </div>
+              <div class="text-center">
+                <button type="submit" class="cmn-btn">Try It Now</button>
+              </div>
+            </form>
+            <p class="text-center mt-3">Already have an account?<a href="#0" data-dismiss="modal" data-toggle="modal" data-target="#loginModal">Sign In</a></p>
+          </div><!-- account-area end -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header-section start  -->
+  <header class="header">
+    <div class="header__bottom">
+      <div class="container">
+        <nav class="navbar navbar-expand-xl align-items-center">
+          <a class="site-logo site-title" href="index.html"><img src="assets/images/logo.png" alt="site-logo"><span class="logo-icon"><i class="flaticon-fire"></i></span></a>
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="menu-toggle"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main-menu ml-auto">
+                <li><a href="index.html">Home</a></li>
+              
+                  <li><a href="games.html">Games</a></li>
+                
+                  <li><a href="blog-two.html">Blog</a></li>
+                
+                  <li><a href="aboutus.html">About Us</a></li>
+                
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+            <div class="nav-right">
+              <a href="contact.html">join now</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div><!-- header__bottom end -->
+  </header>
+  <!-- header-section end  -->
+
+    <!-- hero section start -->
+    <section class="hero bg_img" data-background="assets/images/bg/hero.jpg">
+      <div class="hero__shape">
+        <img src="assets/images/elements/hero/shape.png" alt="image">
+      </div>
+      <div class="el-1"><img src="assets/images/elements/hero/el-1.png" alt="image"></div>
+      <div class="el-2"><img src="assets/images/elements/hero/el-2.png" alt="image"></div>
+      <div class="el-3"><img src="assets/images/elements/hero/el-3.png" alt="image"></div>
+      <div class="el-4"><img src="assets/images/elements/hero/el-4.png" alt="image"></div>
+      <div class="el-5"><img src="assets/images/elements/hero/el-5.png" alt="image"></div>
+      <div class="el-6"><img src="assets/images/elements/hero/el-6.png" alt="image"></div>
+      <div class="el-7"><img src="assets/images/elements/hero/el-7.png" alt="image"></div>
+      <div class="el-8"><img src="assets/images/elements/hero/el-8.png" alt="image"></div>
+      <div class="el-9"><img src="assets/images/elements/hero/el-9.png" alt="image"></div>
+      <div class="el-11"><img src="assets/images/elements/hero/el-11.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="hero__content">
+              <span class="hero__sub-title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">INNOVATING THE NEW NORM</span>
+              <h2 class="hero__title wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s"> K I T M E K </h2>
+              <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s"> Knowledge | Intelligence | Technology | Methods | Entertainment </p>
+			   <div id="fixed-height">
+    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- game section start -->
+    <section class="pt-120 pb-120 position-relative overflow-hidden">
+      <div class="game-el-1" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="assets/images/elements/game-el-1.png" alt="image"></div>
+      <div class="game-el-2" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/game-el-2.png" alt="image"></div>
+      <div class="game-el-3" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/game-el-3.png" alt="image"></div>
+      <div class="game-el-4" data-paroller-factor="0.25" data-paroller-type="foreground" data-paroller-direction="vertical"><img src="assets/images/elements/game-el-4.png" alt="image"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center has--bg">
+              <div class="header-image"><img src="assets/images/elements/header-el.png" alt="image"></div>
+              <h2 class="section-title">FEATURES</h2>
+            </div>
+          </div>
+        </div><!-- row end -->
+        <div class="row mb-none-40">
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/1.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s1.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Physical Development</a></h3>
+                      <p>Albert Einstein said, <i>“Play is the highest form of research."</i> Our metaverse provides the physical training from walking to running to making them hardy.<a href="#0"></a></p>
+                    </div>
+                  </div>
+                
+             
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/2.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s2.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Mental Development</a></h3>
+                      <p>A child’s mind is a bliss of wonders. We ensure development of mental state through various intellectual programs that result in progress of mind.<a href="#0"></a></p>
+                    </div>
+                  
+                  
+                  
+                  
+                </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+			</div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/6.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s6.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Extra Curricular</a></h3>
+                      <p>Academics evolves a child’s mind, sports will enhance their body. However, following their hobbies will free their heart and soul. <a href="#0"></a></p>
+					  <p><span>   </span></p>
+                    </div>
+                  
+                  
+                   
+                  
+                </div>
+                
+                
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/4.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s4.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Social Development</a></h3>
+                      <p><i>“Alone we can do so little; together we can do so much.”</i> Through our various interactive activities, children obtain the confidence to be social.<a href="#0"></a></p>
+                    </div>
+                  </div>
+                  
+                
+                
+                  
+                  
+                
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/5.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s5.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Games</a></h3>
+                      <p>According to Vince Gowmon, <i>“Play is the shortest route between children and their creative calling.”</i> Our abundant set of games give children the opportunity to explore what they enjoy.<a href="#0"></a></p>
+					  <p><span> </span></p>
+                    </div>
+                  </div>
+                  <div class="game-card__ratings">
+                   
+                  </div>
+                
+                
+                
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          
+			</div>
+          <div class="col-lg-6 mb-40  wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.3s">
+            <div class="game-card">
+              <div class="game-card__thumb">
+                <img src="assets/images/games/3.jpg" alt="image">
+              </div>
+              <div class="game-card__content">
+                
+                  <div class="game-card__info">
+                    <div class="thumb"><img src="assets/images/games/s3.jpg" alt="image"></div>
+                    <div class="content">
+                      <h3 class="game-card__title"><a href="game-details.html">Personality Development</a></h3>
+                      <p><i>“Old men can make war, but it is children who will make history.”</i> Our one of a kind platform develops children’s persona making them capable of making a difference.<a href="#0"></a></p>
+                    </div>
+                  </div>
+                  
+                
+                <div class="game-card__action">
+                  </div>
+              </div><!-- game-card__content end -->
+            </div><!-- game-card end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- game section end -->
+
+    <!--=====================Game Trailer Section Start================-->
+<section class="trailer_bg">
+</section>
+
+<section class="container trailer_container position-relative">
+  <div class="trailer_items">
+ 
+    <div class="trailer_thumbnail" id="thumbnail" onclick="closeThumbnail(this)">
+      <img src="assets/images/bg/video-thumb.jpg" alt="First Game Trailer">
+      <a href="javascript:void(0)" class="play_button">
+        <i class="fas fa-play"></i>
+      </a>
+    </div>
+    <div class="trailer_video">
+      <iframe src="https://youtube.com/embed/bIQpoRGPF9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div> 
+</section>
+<!--=====================Game Trailer Section End================-->
+
+    <!-- about section start -->
+    <section class=" pt-120 pb-120 position-relative overflow-hidden">
+      <div class="about-obj-1" data-paroller-factor="-0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/about-obj-1.png" alt="image"></div>
+      <div class="about-obj-2" data-paroller-factor="0.08" data-paroller-type="foreground" data-paroller-direction="horizontal"><img src="assets/images/elements/about-obj-2.png" alt="image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="about-content">
+              <div class="section-header has--bg">
+                <div class="header-image style--two"><img src="assets/images/elements/header-el-2.png" alt="image"></div>
+                <h2 class="section-title">World's First All-in-one Digital Learning Platform!</h2>
+              </div>
+              <p>We have built an AI powered metaverse with a vision to make kids physically strong, mentally active & emotionally stable. Our aim at KitmeK is to enlighten a spark in kids, right from the beginning, by providing them a plethora of learning opportunities to explore and follow their passion. Overall, our mission is to make the digital world safe for kids.
+
+</p>
+              <a href="aboutus.html" class="cmn-btn mt-5">learn more</a>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-lg-0 mt-4">
+            <div class="about-thumb">
+              <img src="assets/images/elements/about-player.png" alt="image" class="image-1">
+              <img src="assets/images/elements/about-phone.png" alt="image" class="image-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- overview section start -->
+    <section class="pt-120 pb-120 position-relative">
+      <div class="bg-el h-75"><img src="assets/images/bg/overview.jpg" alt="image" class="h-100"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center has--bg">
+              
+            </div><!-- overview-card end -->
+          </div>
+        </div><!-- row end -->
+        <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+          <div class="col-lg-10">
+            <div class="testimonial-slider">
+              <div class="testimonial-single">
+                <div class="testimonial-single__thumb" data-animation="fadeInUp" data-delay=".3s">
+                  <img src="assets/images/testimonial/1.png" alt="image">
+                </div>
+                <div class="testimonial-single__content" data-animation="fadeInUp" data-delay=".5s">
+				<h1><span class="designation"><p style="color:white">CEO's Message</p></span></h5>
+                  <h5>I am a concerned father and a responsible son, and between this I find my passion.
+
+The values and virtues I have learnt in my life are based on foundations of love; and this is something I want the world to see and learn - to be the best child and the most loving and caring parent.
+
+In today’s day and age, since technology has become a vital part of our daily lives, I want to use the best and the very best technology to enhance the lives of kids all over the world.</h5>
+                  <span class="designation">ANAND KADIAN</span>
+                  
+                  </div>
+                </div>
+              </div><!-- testimonial-single end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- overview section end -->
+
+
+  <!-- footer section start  -->
+  <footer class="footer-section bg_img" data-background="assets/images/elements/footer.png">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="subscribe-area">
+            <div class="obj"><img src="assets/images/elements/subscribe.png" alt="image"></div>
+            <div class="subscribe-content">
+              <h2 class="title">Find Out About New Games!</h2>
+              <p>Subscribe to get updated on future game releases</p>
+              <p></p>
+              <form class="subscribe-form">
+                <input type="email" name="subscribe_email" id="subscribe_email" placeholder="Enter Your Email">
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footer-top mb-none-50">
+        <div class="col-lg-4 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">ABOUT</h3>
+            <ul class="short-links">
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <!-- <li><a href="#0">Customer Reviews</a></li> -->
+              <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">MY ACCOUNT</h3>
+            <ul class="short-links">
+              <li><a href="#0">Manage Your Account</a></li>
+              <li><a href="#0">Account Varification</a></li>
+              <li><a href="#0">Safety & Security</a></li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- <div class="col-lg-4 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">HELP CENTER</h3>
+            <ul class="short-links">
+              <li><a href="#0">Help centre</a></li>
+              <li><a href="#0">FAQ</a></li>
+              <li><a href="#0">Quick Start Guide</a></li>
+              <li><a href="#0">Tutorials</a></li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="col-lg-4 col-sm-6 mb-50">
+          <div class="footer-widget">
+            <h3 class="footer-widget__title">LEGAL INFO</h3>
+            <ul class="short-links">
+              <!-- <li><a href="#0">Security</a></li> -->
+              <li><a href="tandc.html">Terms of Service</a></li>
+              <!-- <li><a href="#0">Become Affiliate</a></li> -->
+              <!-- <li><a href="#0">Complaints Policy</a></li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row footer-bottom align-items-center">
+        <div class="col-lg-7 col-md-6 text-md-left text-center">
+          <p class="copy-right-text">Copyright © 2021. KITMEK Information Technology | All Rights Reserved </a></p>
+        </div>
+        <div class="col-lg-5 col-md-6 mt-md-0 mt-3">
+          <ul class="social-links justify-content-md-end justify-content-center">
+            <li><a href="https://www.facebook.com/kitmek"><i class="lab la-facebook-f"></i></a></li>
+			<li><a href="https://www.instagram.com/kit.mek/"><i class="lab la-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+  </div>
+  <!-- page-wrapper end -->
+  <!-- jQuery library -->
+  <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+  <!-- custom select js -->
+  <script src="assets/js/vendor/jquery.nice-select.min.js"></script>
+  <!-- lightcase js -->
+  <script src="assets/js/vendor/lightcase.js"></script>
+  <!-- wow js -->
+  <script src="assets/js/vendor/wow.min.js"></script>
+  <!-- slick slider js -->
+  <script src="assets/js/vendor/slick.min.js"></script>
+  <script src="assets/js/vendor/TweenMax.min.js"></script>
+  <!-- contact js -->
+  <script src="assets/js/contact.js"></script>
+  <script src="http://rexbd.net/html/sporcia/demo/assets/js/vendor/jquery.paroller.min.js"></script>
+  <!-- custom js -->
+  <script src="assets/js/app.js"></script>
+  </body>
+</html>

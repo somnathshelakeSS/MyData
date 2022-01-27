@@ -1,0 +1,50 @@
+
+Owl Carosel in one Page ( id change needs)
+
+first owl carousel 
+
+<script type="text/javascript"> 
+$('.client-list').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,   
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
+
+ second owl carosel
+
+<script type="text/javascript">	
+$('.testimonial_owlCarousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    autoplay:true,   
+    smartSpeed: 3000, 
+    autoplayTimeout:4000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
